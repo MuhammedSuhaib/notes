@@ -194,5 +194,218 @@ throw new Error("Error Message");
 
 ---
 
-Let me know if you need any adjustments! 🚀
+# Python Class 1 - Concepts Explained
+
+## 1. Printing & Variable Assignment
+```python
+print("Hello World!!")
+
+user_name = "abc"
+print(user_name)
+
+user_name = "xyz"
+print(user_name)
+```
+
+### Comparison with JavaScript/TypeScript:
+```ts
+console.log("Hello World!!");
+
+let userName = "abc";
+console.log(userName);
+
+userName = "xyz";
+console.log(userName);
+```
+- Python uses `print()` for output, whereas JavaScript/TypeScript uses `console.log()`.
+- Variables in Python are dynamically typed, while TypeScript requires explicit types.
+
+---
+
+## 2. Naming Conventions
+- Camel Case: `myVariableName` (JS/TS)
+- Snake Case: `my_variable_name` (Python)
+- Pascal Case: `MyVariableName` (Both)
+- Lower Case: `myvariablename` (Both, but uncommon)
+- Double Underscore: `__private_variable` (Python only, used for name mangling)
+
+---
+
+## 3. Data Types
+```python
+string = "Hello"
+number = 42
+float_num = 3.14
+boolean = True
+none_value = None
+```
+
+### Comparison with JavaScript/TypeScript:
+```ts
+let string: string = "Hello";
+let number: number = 42;
+let floatNum: number = 3.14;
+let boolean: boolean = true;
+let noneValue: null = null; // `None` in Python, `null` in JS/TS
+```
+
+- Python has `None`, whereas JavaScript/TypeScript has `null`.
+- Python uses `True/False`, while JavaScript/TypeScript uses `true/false`.
+
+---
+
+## 4. String Interpolation
+```python
+first_name = "Fahad"
+last_name = "Khan"
+full_name = f"{first_name} {last_name}"
+```
+
+### Comparison with JavaScript/TypeScript:
+```ts
+let firstName = "Fahad";
+let lastName = "Khan";
+let fullName = `${firstName} ${lastName}`; // Template literals
+```
+
+- Python uses `f"{variable}"`, while JavaScript/TypeScript uses **template literals** `${variable}`.
+
+---
+
+## 5. String Methods
+### Convert to Uppercase
+```python
+print(full_name.upper())
+```
+```ts
+console.log(fullName.toUpperCase());
+```
+
+### Convert to Lowercase
+```python
+print(full_name.lower())
+```
+```ts
+console.log(fullName.toLowerCase());
+```
+
+### Trim Whitespace
+```python
+print(full_name.strip())
+```
+```ts
+console.log(fullName.trim());
+```
+
+### Replace Substrings
+```python
+text = "quick brown fox"
+print(text.replace("fox", "dog"))
+```
+```ts
+let text = "quick brown fox";
+console.log(text.replace("fox", "dog"));
+```
+
+### Title Case (First Letter Capitalized)
+```python
+print("hello world".title())
+```
+```ts
+// No built-in method, need custom function
+console.log("hello world".replace(/\b\w/g, c => c.toUpperCase()));
+```
+
+### Swap Case (Upper to Lower & Vice Versa)
+```python
+print("Hello PYTHON".swapcase())
+```
+- **Not available in JavaScript/TypeScript**
+
+### Check if String is Digit/Alpha/Alphanumeric
+```python
+print("12345".isdigit())  # True
+print("Hello".isalpha())  # True
+print("Hello123".isalnum())  # True
+```
+```ts
+console.log(/^[0-9]+$/.test("12345")); // True
+console.log(/^[a-zA-Z]+$/.test("Hello")); // True
+console.log(/^[a-zA-Z0-9]+$/.test("Hello123")); // True
+```
+
+### Find Substring Index
+```python
+print("quick brown fox".find("fox"))  # Returns index
+```
+```ts
+console.log("quick brown fox".indexOf("fox"));
+```
+
+### Count Occurrences
+```python
+print("quick brown fox".count("o"))
+```
+- **Not available in JavaScript/TypeScript (requires regex or loop)**
+
+---
+
+## 6. String Slicing
+```python
+name = "Hamza Ahmed Alvi"
+print(name[0:5])  # Hamza
+print(name[:5])   # Hamza
+print(name[2:])   # mza Ahmed Alvi
+```
+```ts
+let name = "Hamza Ahmed Alvi";
+console.log(name.substring(0, 5)); // Hamza
+console.log(name.substring(2)); // mza Ahmed Alvi
+```
+
+- Python uses `string[start:end]`, while JavaScript/TypeScript uses `substring()`.
+
+---
+
+## 7. Docstring (Multiline Comments)
+```python
+"""
+This is a docstring.
+Used for documentation.
+"""
+```
+```ts
+/*
+This is a multiline comment.
+Used for documentation.
+*/
+```
+
+- Python uses `"""Triple Quotes"""`, while JavaScript/TypeScript uses `/* Block Comments */`.
+
+---
+
+## 8. User Input
+```python
+name = input("Enter your name: ")
+```
+```ts
+import inquirer from "inquirer";
+inquirer.prompt([{ name: "name", message: "Enter your name:" }])
+  .then(answer => console.log(answer.name));
+```
+
+- Python uses `input()`.
+- JavaScript/TypeScript typically use `prompt()` (browser) or `inquirer` (Node.js).
+
+---
+
+## Conclusion
+- **Python has `None`, while JavaScript/TypeScript has `null`.**
+- **Python has built-in methods like `swapcase()`, `count()`, while JS/TS do not.**
+- **Python uses `f"{var}"` for string interpolation, while JS/TS use template literals `${var}`.**
+- **Python string slicing uses `[start:end]`, while JS/TS use `substring()`.**
+- **Python uses `input()` for user input, whereas JS/TS require `prompt()` or `inquirer`.**
+
+
 
