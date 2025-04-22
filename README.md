@@ -1,6 +1,9 @@
+###### Ue Ctrl+Shift+V to open the markdown preview.
+
 # Python vs TypeScript/JavaScript: A Beginner-Friendly Comparison
 
 ## 1. Introduction
+
 - Python and TypeScript/JavaScript are both widely used programming languages.
 - Python is known for simplicity and readability.
 - TypeScript is a superset of JavaScript with static typing.
@@ -10,34 +13,38 @@
 
 ## 2. Basic Data Types
 
-| Python 🐍  | TypeScript/JavaScript 🟦  |
-|------------|--------------------------|
-| `x = 10` (int) | `let x: number = 10;` |
-| `y = 3.14` (float) | `let y: number = 3.14;` |
-| `name = "Ali"` (str) | `let name: string = "Ali";` |
-| `is_true = True` (bool) | `let isTrue: boolean = true;` |
-| `x = None` (null equivalent) | `let x: null = null;` |
+| Python 🐍                    | TypeScript/JavaScript 🟦      |
+| ---------------------------- | ----------------------------- |
+| `x = 10` (int)               | `let x: number = 10;`         |
+| `y = 3.14` (float)           | `let y: number = 3.14;`       |
+| `name = "Ali"` (str)         | `let name: string = "Ali";`   |
+| `is_true = True` (bool)      | `let isTrue: boolean = true;` |
+| `x = None` (null equivalent) | `let x: null = null;`         |
 
 ---
 
 ## 3. Lists vs Arrays
+
 - Python uses **lists**, while TypeScript/JavaScript uses **arrays**.
 
 ```python
 nums = [1, 2, 3]  # List
 ```
-```ts
+
+```typescript
 let nums: number[] = [1, 2, 3]; // Array
 ```
 
 ---
 
 ## 4. Tuples vs Arrays (Readonly)
+
 - Python has **tuples** (immutable), while TypeScript has **readonly arrays or tuples**.
 
 ```python
 data = (4, 5, 6)  # Tuple
 ```
+
 ```ts
 const data: readonly [number, number, number] = [4, 5, 6];
 ```
@@ -45,21 +52,25 @@ const data: readonly [number, number, number] = [4, 5, 6];
 ---
 
 ## 5. Dictionaries vs Objects/Maps
+
 - Python uses **dict**, while TypeScript/JavaScript uses **objects or Map**.
 
 ```python
 info = {"name": "Ali", "age": 25}  # Dictionary
 ```
+
 ```ts
 const info: { name: string; age: number } = { name: "Ali", age: 25 };
 ```
 
 ---
 
-## 6. Sets (Same in Both)
+## 6. Sets (Same in Both , just difference of syntax)
+
 ```python
 unique = {1, 2, 3}  # Set
 ```
+
 ```ts
 const unique = new Set([1, 2, 3]); // Set
 ```
@@ -67,12 +78,14 @@ const unique = new Set([1, 2, 3]); // Set
 ---
 
 ## 7. Bytes & Bytearray vs Buffer
+
 - Python has **bytes & bytearray**, while JavaScript has **Buffer**.
 
 ```python
 b = b"hello"  # Bytes
 ba = bytearray(b)  # Mutable Bytearray
 ```
+
 ```ts
 const b = Buffer.from("hello"); // Buffer
 ```
@@ -80,24 +93,27 @@ const b = Buffer.from("hello"); // Buffer
 ---
 
 ## 8. Key Differences
-- **Python lists ≈ JavaScript/TypeScript arrays**  
-- **Python tuples ≈ TypeScript readonly tuples**  
-- **Python dict ≈ JavaScript objects/Map**  
-- **Python has `None`, JavaScript has `null/undefined`**  
-- **Python uses indentation, TypeScript uses `{}`**  
+
+- **Python lists ≈ JavaScript/TypeScript arrays**
+- **Python tuples ≈ TypeScript readonly arrays**
+- **Python dict ≈ JavaScript objects/Map**
+- **Python has `None`, JavaScript has `null/undefined`**
+- **Python uses indentation and colons ":" for blocks, TypeScript uses `{}`**
 - Python is **dynamically typed**, while TypeScript is **statically typed**. 🚀
 
 ---
 
-## 9. Function Definitions
+## 9. Function vs Definitions
 
 ### Python:
+
 ```python
 def greet(name):
     return f"Hello, {name}!"
 ```
 
 ### JavaScript/TypeScript:
+
 ```ts
 const greet = (name: string): string => `Hello, ${name}!`;
 ```
@@ -107,6 +123,7 @@ const greet = (name: string): string => `Hello, ${name}!`;
 ## 10. Conditions in Python vs JavaScript/TypeScript
 
 ### Python:
+
 ```python
 if x > 10:
     print("Big")
@@ -117,13 +134,14 @@ else:
 ```
 
 ### JavaScript/TypeScript:
+
 ```ts
 if (x > 10) {
-    console.log("Big");
+  console.log("Big");
 } else if (x === 10) {
-    console.log("Equal");
+  console.log("Equal");
 } else {
-    console.log("Small");
+  console.log("Small");
 }
 ```
 
@@ -132,18 +150,23 @@ if (x > 10) {
 ## 11. Error Handling
 
 ### Python:
+
 ```python
 raise ValueError("Error Message")
 ```
 
 ### JavaScript/TypeScript:
+
 ```ts
 throw new Error("Error Message");
 ```
 
 ---
 
-## 12. AI-Related Concepts
+#
+
+# 12. AI-Related Concepts
+
 - **Machine Programming**: A machine does exactly what it is programmed to do.
 - **Machine Learning**: Teaching machines using examples (difficult).
 - **Deep Learning**: A subset of ML, easier than traditional ML.
@@ -158,6 +181,7 @@ throw new Error("Error Message");
 ---
 
 ## 13. Computing Hardware
+
 - **TPU (Tensor Processing Unit)**: Specialized AI hardware.
 - **CPU (Central Processing Unit)**: Executes tasks one at a time but with precision.
 - **GPU (Graphics Processing Unit)**: Executes multiple tasks in parallel.
@@ -165,6 +189,7 @@ throw new Error("Error Message");
 ---
 
 ## 14. Unicorn Startups
+
 - A Unicorn Startup is a private business that reaches a valuation of over $1 billion without being publicly traded.
 - **Examples:**
   - Pakistan has **3**
@@ -174,6 +199,7 @@ throw new Error("Error Message");
 ---
 
 ## 15. Summary of Key Takeaways
+
 1. **Python Virtual Machine (PVM)** executes the **bytecode** generated by the Python interpreter.
 2. **Interning**: Python stores immutable objects (like strings and small integers) in a pool for reuse.
 3. **Immutable objects**: Objects that cannot be changed after creation (e.g., `str`, `tuple`, `int`).
@@ -187,6 +213,7 @@ throw new Error("Error Message");
 ---
 
 ## 16. Conclusion
+
 - Python and TypeScript/JavaScript have different use cases and strengths.
 - Python is beginner-friendly and widely used in AI/ML and data science.
 - TypeScript is better for large-scale applications due to static typing.
@@ -194,9 +221,12 @@ throw new Error("Error Message");
 
 ---
 
+#
+
 # Python Class 1 - Concepts Explained
 
 ## 1. Printing & Variable Assignment
+
 ```python
 print("Hello World!!")
 
@@ -208,6 +238,7 @@ print(user_name)
 ```
 
 ### Comparison with JavaScript/TypeScript:
+
 ```ts
 console.log("Hello World!!");
 
@@ -217,12 +248,14 @@ console.log(userName);
 userName = "xyz";
 console.log(userName);
 ```
-- Python uses `print()` for output, whereas JavaScript/TypeScript uses `console.log()`.
+
+- Python uses ` print()` for output, whereas JavaScript/TypeScript uses `console.log()`.
 - Variables in Python are dynamically typed, while TypeScript requires explicit types.
 
 ---
 
 ## 2. Naming Conventions
+
 - Camel Case: `myVariableName` (JS/TS)
 - Snake Case: `my_variable_name` (Python)
 - Pascal Case: `MyVariableName` (Both)
@@ -232,6 +265,7 @@ console.log(userName);
 ---
 
 ## 3. Data Types
+
 ```python
 string = "Hello"
 number = 42
@@ -241,6 +275,7 @@ none_value = None
 ```
 
 ### Comparison with JavaScript/TypeScript:
+
 ```ts
 let string: string = "Hello";
 let number: number = 42;
@@ -255,6 +290,7 @@ let noneValue: null = null; // `None` in Python, `null` in JS/TS
 ---
 
 ## 4. String Interpolation
+
 ```python
 first_name = "Fahad"
 last_name = "Khan"
@@ -262,6 +298,7 @@ full_name = f"{first_name} {last_name}"
 ```
 
 ### Comparison with JavaScript/TypeScript:
+
 ```ts
 let firstName = "Fahad";
 let lastName = "Khan";
@@ -273,61 +310,76 @@ let fullName = `${firstName} ${lastName}`; // Template literals
 ---
 
 ## 5. String Methods
+
 ### Convert to Uppercase
+
 ```python
 print(full_name.upper())
 ```
+
 ```ts
 console.log(fullName.toUpperCase());
 ```
 
 ### Convert to Lowercase
+
 ```python
 print(full_name.lower())
 ```
+
 ```ts
 console.log(fullName.toLowerCase());
 ```
 
 ### Trim Whitespace
+
 ```python
 print(full_name.strip())
 ```
+
 ```ts
 console.log(fullName.trim());
 ```
 
 ### Replace Substrings
+
 ```python
 text = "quick brown fox"
 print(text.replace("fox", "dog"))
 ```
+
 ```ts
 let text = "quick brown fox";
 console.log(text.replace("fox", "dog"));
 ```
 
 ### Title Case (First Letter Capitalized)
+
 ```python
 print("hello world".title())
 ```
+
 ```ts
 // No built-in method, need custom function
-console.log("hello world".replace(/\b\w/g, c => c.toUpperCase()));
+console.log("hello world".replace(/\b\w/g, (c) => c.toUpperCase()));
 ```
 
 ### Swap Case (Upper to Lower & Vice Versa)
+
 ```python
 print("Hello PYTHON".swapcase())
 ```
+
 - **Not available in JavaScript/TypeScript**
 
 ### Check if String is Digit/Alpha/Alphanumeric
+
 ```python
 print("12345".isdigit())  # True
 print("Hello".isalpha())  # True
 print("Hello123".isalnum())  # True
 ```
+
 ```ts
 console.log(/^[0-9]+$/.test("12345")); // True
 console.log(/^[a-zA-Z]+$/.test("Hello")); // True
@@ -335,28 +387,38 @@ console.log(/^[a-zA-Z0-9]+$/.test("Hello123")); // True
 ```
 
 ### Find Substring Index
+
 ```python
 print("quick brown fox".find("fox"))  # Returns index
+print("quick brown fox".find("dog"))  # Returns -1 (not found)
 ```
+
 ```ts
 console.log("quick brown fox".indexOf("fox"));
+// return index
+console.log("quick brown fox".indexOf("dog"));
+// return -1 if not found
 ```
 
 ### Count Occurrences
+
 ```python
-print("quick brown fox".count("o"))
+print("quick brown fox".count("o")) #2
 ```
+
 - **Not available in JavaScript/TypeScript (requires regex or loop)**
 
 ---
 
 ## 6. String Slicing
+
 ```python
 name = "Hamza Ahmed Alvi"
 print(name[0:5])  # Hamza
 print(name[:5])   # Hamza
 print(name[2:])   # mza Ahmed Alvi
 ```
+
 ```ts
 let name = "Hamza Ahmed Alvi";
 console.log(name.substring(0, 5)); // Hamza
@@ -368,12 +430,14 @@ console.log(name.substring(2)); // mza Ahmed Alvi
 ---
 
 ## 7. Docstring (Multiline Comments)
+
 ```python
 """
 This is a docstring.
 Used for documentation.
 """
 ```
+
 ```ts
 /*
 This is a multiline comment.
@@ -386,13 +450,16 @@ Used for documentation.
 ---
 
 ## 8. User Input
+
 ```python
 name = input("Enter your name: ")
 ```
+
 ```ts
 import inquirer from "inquirer";
-inquirer.prompt([{ name: "name", message: "Enter your name:" }])
-  .then(answer => console.log(answer.name));
+inquirer
+  .prompt([{ name: "name", message: "Enter your name:" }])
+  .then((answer) => console.log(answer.name));
 ```
 
 - Python uses `input()`.
@@ -401,11 +468,9 @@ inquirer.prompt([{ name: "name", message: "Enter your name:" }])
 ---
 
 ## Conclusion
+
 - **Python has `None`, while JavaScript/TypeScript has `null`.**
 - **Python has built-in methods like `swapcase()`, `count()`, while JS/TS do not.**
 - **Python uses `f"{var}"` for string interpolation, while JS/TS use template literals `${var}`.**
 - **Python string slicing uses `[start:end]`, while JS/TS use `substring()`.**
 - **Python uses `input()` for user input, whereas JS/TS require `prompt()` or `inquirer`.**
-
-
-
