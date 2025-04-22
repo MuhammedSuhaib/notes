@@ -8,7 +8,16 @@
 - Python is known for simplicity and readability.
 - TypeScript is a superset of JavaScript with static typing.
 - Both have different strengths and use cases.
+- Python is a high-level, interpreted language.
+- Python and JS/TS are object-centric, which means almost everything is an object, including functions.
+- Both fully support OOP
+- Both support first-class functions:
 
+  - Can be assigned to variables
+
+  - Can be passed as arguments
+
+  - Can be returned from other functions
 ---
 
 ## 2. Basic Data Types
@@ -367,6 +376,7 @@ console.log(name.substring(2)); // mza Ahmed Alvi
 ```
 
 - Python uses `string[start:end]`, while JavaScript/TypeScript uses `substring()`.
+- The point to note is that in any language, `slice[]` and `range()` never include the `second argument`.
 
 ---
 

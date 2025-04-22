@@ -75,3 +75,4 @@
 > **Eg:** `async/await` in JS for API calls
 
 ---
+ **Prototype**- Draft model before the final one (sometimes it means the earliest version).
