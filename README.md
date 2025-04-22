@@ -22,6 +22,7 @@
 | `x = None` (null equivalent) | `let x: null = null;`         |
 
 ---
+![Data Types](./datatype.png)
 
 ## 3. Lists vs Arrays
 
@@ -429,4 +430,3 @@ inquirer
 9. **Casting `float` to `int`** truncates (removes) the decimal part, not rounds it.
 
 ---
-
