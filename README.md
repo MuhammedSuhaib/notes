@@ -21,6 +21,7 @@
 ---
 
 ## 2. Basic Data Types
+![Data Types](./datatype.png)
 
 | Python 🐍                    | TypeScript/JavaScript 🟦      |
 | ---------------------------- | ----------------------------- |
@@ -31,7 +32,6 @@
 | `x = None` (null equivalent) | `let x: null = null;`         |
 
 ---
-![Data Types](./datatype.png)
 
 ## 3. Lists vs Arrays
 
