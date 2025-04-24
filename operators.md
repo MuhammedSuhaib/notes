@@ -1,4 +1,5 @@
-# **Operator and Operand**
+<font color="#372e2e" size="7">**Operator and Operand**</font>
+$${\color{red}Red}$$
 * **Operator**: A symbol that performs an operation (e.g., +, -, *, /).
 * **Operand**: The value(s) or variable(s) that the operator works with.
 
