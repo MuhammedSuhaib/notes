@@ -203,43 +203,41 @@ console.log(userName);
 - Variables in Python are dynamically typed, while TypeScript requires explicit types.
 
 ---
+## 2 Line continuation
 
-## 2. Naming Conventions
+```py
+# Use backslash (\) to continue a line.
+# Output remains unchanged.
+# Example:
+print("This is another very long statement that will be split \
+across multiple lines to improve readability \
+without breaking the string.")
 
-- Camel Case: `myVariableName` (JS/TS)
-- Snake Case: `my_variable_name` (Python)
-- Pascal Case: `MyVariableName` (Both)
-- Lower Case: `myvariablename` (Both, but uncommon)
-- Double Underscore: `__private_variable` (Python only, used for name mangling)
+# Alternatively, use "" to split strings without backslashes:
+print("This is a very long statement that will be split "
+"across multiple lines to improve readability "
+"without breaking the string.")
 
----
-
-## 3. Data Types
-
-```python
-string = "Hello"
-number = 42
-float_num = 3.14
-boolean = True
-none_value = None
 ```
-
 ### Comparison with JavaScript/TypeScript:
 
 ```ts
-let string: string = "Hello";
-let number: number = 42;
-let floatNum: number = 3.14;
-let boolean: boolean = true;
-let noneValue: null = null; // `None` in Python, `null` in JS/TS
+// Use backslash (\) to continue a line.
+// Output remains unchanged.
+// Example:
+print("This is another very long statement that will be split \
+across multiple lines to improve readability \
+without breaking the string.")
+
+// Alternatively, use "" and , to split strings without backslashes:
+print("This is a very long statement that will be split ",
+"across multiple lines to improve readability ",
+"without breaking the string.")
+
 ```
-
-- Python has `None`, whereas JavaScript/TypeScript has `null`.
-- Python uses `True/False`, while JavaScript/TypeScript uses `true/false`.
-
 ---
 
-## 4. String Interpolation
+## 3. String Interpolation
 
 ```python
 first_name = "Fahad"
@@ -259,7 +257,7 @@ let fullName = `${firstName} ${lastName}`; // Template literals
 
 ---
 
-## 5. String Methods
+## 4. String Methods
 
 ### Convert to Uppercase
 
@@ -360,7 +358,7 @@ print("quick brown fox".count("o")) #2
 
 ---
 
-## 6. String Slicing
+## 5. String Slicing
 
 ```python
 name = "Hamza Ahmed Alvi"
@@ -380,7 +378,7 @@ console.log(name.substring(2)); // mza Ahmed Alvi
 
 ---
 
-## 7. Docstring (Multiline Comments)
+## 6. Docstring (Multiline Comments)
 
 ```python
 """
@@ -400,7 +398,7 @@ Used for documentation.
 
 ---
 
-## 8. User Input
+## 7. User Input
 
 ```python
 name = input("Enter your name: ")
