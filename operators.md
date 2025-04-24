@@ -1,15 +1,12 @@
-<font color="#372e2e" size="7">**Operator and Operand**</font>
-$${\color{red}Red}$$
+# **Operator and Operand**
 * **Operator**: A symbol that performs an operation (e.g., +, -, *, /).
 * **Operand**: The value(s) or variable(s) that the operator works with.
 
-[![Operator and Operand](./opr.jpg)]
+![Operator and Operand](./public/opr.jpg)
 
-<font color="#4CAF50" size="6">⚙️ Python Operators</font>
+# ⚙️ Python Operators
 
----
-
-<font color="#FF9800" size="5">☝️ Unary Operators (1 operand)</font>
+## ☝️ Unary Operators (1 operand)
 
 | Operator       | Description                                      | Example      |
 |----------------|--------------------------------------------------|--------------|
@@ -21,39 +18,39 @@ $${\color{red}Red}$$
 
 ---
 
-<font color="#FF9800" size="5">✌️ Binary Operators (2 operands)</font>
+## ✌️ Binary Operators (2 operands)
 
-### <font color="#2196F3" size="4">🔢 Arithmetic</font>  
+### 🔢 Arithmetic  
 `+`, `-`, `*`, `/`, `//`, `%`, `**`
 
-### <font color="#2196F3" size="4">📝 Assignment</font>  
+### 📝 Assignment  
 `=`, `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=` , `&=`, `|=`, `^=`, `>>=`, `<<=`,`:=`
 
-### <font color="#cd07a1" size="4">🧮 Comparison</font>  
+### 🧮 Comparison  
 `==`, `!=`, `>`, `<`, `>=`, `<=`
 
-### <font color="#2196F3" size="4">⚙️ Logical</font>  
+### ⚙️ Logical  
 `and`, `or`
 
-### <font color="#2196F3" size="4">🧠 Bitwise</font>  
+### 🧠 Bitwise  
 `&`, `|`, `^`, `<<`, `>>`
 
-### <font color="#2196F3" size="4">🔍 Identity</font>  
+### 🔍 Identity  
 `is`, `is not`
 
-### <font color="#2196F3" size="4">📦 Membership</font>  
+### 📦 Membership  
 `in`, `not in`
 
 ---
 
-<font color="#FF9800" size="5">🧠 Quick Recap</font>
+## 🧠 Quick Recap
 
 - **Unary**: One operand → `-x`, `not a`, `~x`
 - **Binary**: Two operands → `a + b`, `x in y`, `a is b`
 
 ---
 
-<font color="#FF9800" size="5">**Bitwise Operators**</font>
+## **Bitwise Operators**
 
 - **&**: Only keeps 1 where both have 1  
   `5 = 0101`  
@@ -84,7 +81,7 @@ $${\color{red}Red}$$
 
 ---
 
-<font color="#FF9800" size="5">**Walrus Operator (`:=`)**</font>
+## **Walrus Operator (`:=`)**
 
 The walrus operator allows you to assign a value to a variable inside an expression.  
 Available from Python 3.8 onwards.
@@ -109,16 +106,16 @@ print(nums)
 
 ---
 
-<font color="#cd07a1" size="5">**Python Comparison Operators**</font>
+## **Python Comparison Operators**
 
-[![Comparison Operators W3 school](./comp.png)](https://www.w3schools.com/python/python_operators.asp)
+[![Comparison Operators W3 school](./public/comp.png)](https://www.w3schools.com/python/python_operators.asp)
 
 
-<font color="#FF9800" size="5">**Python Logical Operators**</font>
+## **Python Logical Operators**
 
-[![Logical Operators W3 school](./logical.png)](https://www.w3schools.com/python/python_operators.asp)
+[![Logical Operators W3 school](./public/logical.png)](https://www.w3schools.com/python/python_operators.asp)
 
-<font color="#FF9800" size="5">**Python Identity Operators** `is`/`is not`</font>
+## **Python Identity Operators** `is`/`is not`
 
 - **is**: Returns True if both variables are the same object  
   `x = [1, 2, 3]`  
@@ -131,7 +128,7 @@ print(nums)
   `x is not y` → `True`
 
 
-<font color="#FF9800" size="5">**Python Membership Operators** `in`/`in not`</font>
+## **Python Membership Operators** `in`/`in not`
 
 - **in**: Returns True if a sequence with the specified value is present in the object  
   `x = 5`  

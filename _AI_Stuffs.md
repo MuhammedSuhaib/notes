@@ -45,7 +45,8 @@
 
 - **Esoteric** – Understood by few; niche knowledge.
 - **Andrew Ng** – Legendary AI instructor. _Try his ML course on Coursera._
-
+- **Innovation** - Turning new ideas into useful reality.
+- **Prototype**- Draft model before the final one (sometimes it means the earliest version).
 ---
 
 # 🔤 Programming Concepts
@@ -75,4 +76,3 @@
 > **Eg:** `async/await` in JS for API calls
 
 ---
- **Prototype**- Draft model before the final one (sometimes it means the earliest version).
