@@ -436,5 +436,12 @@ inquirer
 7. **Mapping Data Type**: `dict` (stores key-value pairs).
 8. **Adding `int` and `float`** results in a `float`.
 9. **Casting `float` to `int`** truncates (removes) the decimal part, not rounds it.
+10. **MULTIPLE ASSIGMENT**
+x, y, z = 1, 2.5, "Python" # Using type hints while assigning mutiple variables simultaneously cause and error invalid syntax
 
+print( z)
+print( x)
+print( y)
+11. i**del**
+del x removes the variable x from memory. After deletion, trying to access the variable x results in a NameError, indicating that the variable no longer exists.
 ---
