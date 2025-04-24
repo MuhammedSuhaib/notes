@@ -1,8 +1,6 @@
-<font color="#372e2e" size="7">**Operator and Operand**</font>
-$${\color{red}Red}$$
+# **Operator and Operand**
 * **Operator**: A symbol that performs an operation (e.g., +, -, *, /).
 * **Operand**: The value(s) or variable(s) that the operator works with.
-
 ![Operator and Operand](./public/opr.jpg)
 
 # ⚙️ Python Operators
