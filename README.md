@@ -115,14 +115,10 @@ const b = Buffer.from("hello"); // Buffer
 
 ## 9. Function vs Definitions
 
-### Python:
-
 ```python
 def greet(name):
     return f"Hello, {name}!"
 ```
-
-### JavaScript/TypeScript:
 
 ```ts
 const greet = (name: string): string => `Hello, ${name}!`;
@@ -132,8 +128,6 @@ const greet = (name: string): string => `Hello, ${name}!`;
 
 ## 10. Conditions in Python vs JavaScript/TypeScript
 
-### Python:
-
 ```python
 if x > 10:
     print("Big")
@@ -142,8 +136,6 @@ elif x == 10:
 else:
     print("Small")
 ```
-
-### JavaScript/TypeScript:
 
 ```ts
 if (x > 10) {
@@ -159,13 +151,9 @@ if (x > 10) {
 
 ## 11. Error Handling
 
-### Python:
-
 ```python
 raise ValueError("Error Message")
 ```
-
-### JavaScript/TypeScript:
 
 ```ts
 throw new Error("Error Message");
@@ -444,4 +432,4 @@ print( x)
 print( y)
 11. i**del**
 del x removes the variable x from memory. After deletion, trying to access the variable x results in a NameError, indicating that the variable no longer exists.
----
+---`
