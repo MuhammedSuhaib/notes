@@ -270,7 +270,17 @@ greeting = "Hello, {}!".format(first_name)
 ```python
 greeting = "Hello, %s!" % first_name
 ```
+**Another example using `%` operator:**
 
+```python
+name: str = 'John'
+age: int = 20
+first_letter: str = name[0]
+my_weight: float = 70.532000  # 70.536000
+
+my_string: str = '''My name is %s, first letter of my name is \'%c\', I am %d years old and my weight is %2f Kg.''' % (name, first_letter, age, my_weight)
+print(my_string)
+```
 - `%s` → string
 - `%d` → integer
 - `%f` → float
