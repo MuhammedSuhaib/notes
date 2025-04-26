@@ -44,7 +44,7 @@ Instead of writing complex methods like `add_warrior_strength(warrior1, warrior2
 `==`, `!=`, `>`, `<`, `>=`, `<=`
 
 ### ⚙️ Logical  
-`and`, `or`
+`and`, `or`,`not`
 
 ### 🧠 Bitwise  
 `&`, `|`, `^`, `<<`, `>>`
