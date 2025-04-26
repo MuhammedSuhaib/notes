@@ -271,6 +271,18 @@ greeting = "Hello, {}!".format(first_name)
 greeting = "Hello, %s!" % first_name
 ```
 
+- `%s` → string
+- `%d` → integer
+- `%f` → float
+- `%.2f` → float with 2 decimal places
+- `%x` → hexadecimal (lowercase)
+- `%X` → hexadecimal (uppercase)
+- `%o` → octal
+- `%e` → scientific notation (lowercase)
+- `%E` → scientific notation (uppercase)
+- `%c` → character (based on integer value)
+- `%p` → pointer address
+
 ### Comparison with JavaScript/TypeScript:
 
 - Not available in JavaScript/TypeScript
