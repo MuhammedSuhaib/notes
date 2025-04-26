@@ -148,10 +148,32 @@ if (x > 10) {
   console.log("Small");
 }
 ```
+## 11. Type Casting
+---
+
+**What is Type Casting?**  
+Type casting (or type conversion) is changing one data type into another. Python has two types:
+- **Implicit Type Casting**: Python does it automatically.
+- **Explicit Type Casting**: You do it manually using built-in functions.
+
+Example:  
+```python
+lst: list = [("name", "Alice"), ("age", 25)]
+# or
+lst: list = [["name", "Alice"], ["age", 25]]
+
+d = dict(lst)
+print(d, type(d))
+# Output: {'name': 'Alice', 'age': 25'} <class 'dict'>
+```
+
+**Note:**  
+- `complex` numbers can **only** be converted to `str`, **not** to `int` or `float`.
 
 ---
 
-## 11. Error Handling
+
+## 12. Error Handling
 
 ```python
 raise ValueError("Error Message")

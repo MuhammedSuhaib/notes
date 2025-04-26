@@ -124,6 +124,17 @@ print(nums)
 
 [![Comparison Operators W3 school](./public/comp.png)](https://www.w3schools.com/python/python_operators.asp)
 
+### Comparison for Strings in Python
+Python compares strings character by character using their Unicode values.
+```py
+'a' < 'b'#True  because the Unicode value of 'a' (97) is smaller than that of 'b' (98).
+
+'apple' < 'banana' #True bcz 'a' < 'b', so Python stops there
+
+print("Apple" > "apple")  # False ('A' has a smaller Unicode value than 'a')
+print("apple" == "APPLE") # False (case-sensitive)
+print("abc" < "abd")      # True ('c' < 'd')
+```
 
 ## **Python Logical Operators**
 
