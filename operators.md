@@ -11,6 +11,7 @@ Operator overloading allows you to define what +, -, *, or other operators shoul
 
 Normally, + is used for addition: 5 + 3 → 8
 But it also works for strings: "Hello" + "World" → "HelloWorld"
+** not only use to make power but also to combine two dictionaries in 1one
 Python already knows how to handle numbers and strings, but what if you create a custom object, like a "Warrior" or a "ShoppingCart"?
 
 **Why is Operator Overloading Useful?**
