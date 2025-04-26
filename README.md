@@ -89,6 +89,16 @@ const unique = new Set([1, 2, 3]); // Set
 
 ---
 
+**Set in Python**  
+- `set`: `{}` — removes duplicates (list `[]` doesn't).
+- **Set** is used to create a **unique list**.
+- `{}` alone is an **empty dict**, **not** an empty set.  
+  (Empty set = `set()`)
+- **Sets are unordered** — we can't predict the sequence.
+- **Hashing** happens on **each item**, not on the whole set.
+
+---
+
 ## 7. Bytes & Bytearray vs Buffer
 
 - Python has **bytes & bytearray**, while JavaScript has **Buffer**.
