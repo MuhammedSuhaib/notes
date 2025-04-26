@@ -518,7 +518,7 @@ print(txt.format(49)) # Output: "We have 49       chickens."
 - `:d` Decimal format.
 - `:e` Scientific notation (lowercase).
 - `:E` Scientific notation (uppercase).
-- `:f` Fixed-point format.
+- `:ⁿf` Fixed-point format, where `ⁿ` is no.digits
 - `:o` Octal format.
 - `:x` Hex format (lowercase).
 - `:X` Hex format (uppercase).
