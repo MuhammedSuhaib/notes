@@ -5,7 +5,7 @@
 
 # ⚙️ Python Operators
 
-## Operator Overloading
+## ⚡ Operator Overloading
 
 Operator overloading allows you to define what +, -, *, or other operators should do when used with your objects.
 
