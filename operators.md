@@ -9,9 +9,15 @@
 
 Operator overloading allows you to define what +, -, *, or other operators should do when used with your objects.
 
+Normally, + is used for addition: 5 + 3 → 8
+But it also works for strings: "Hello" + "World" → "HelloWorld"
+Python already knows how to handle numbers and strings, but what if you create a custom object, like a "Warrior" or a "ShoppingCart"?
+
 **Why is Operator Overloading Useful?**
 
 Instead of writing complex methods like `add_warrior_strength(warrior1, warrior2)`, you can simply write `warrior1 + warrior2` and Python will know it means combining their strength—because you've taught it using operator overloading.
+
+
 
 ## ☝️ Unary Operators (1 operand)
 
