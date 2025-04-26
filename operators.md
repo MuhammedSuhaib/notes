@@ -5,6 +5,14 @@
 
 # ⚙️ Python Operators
 
+## Operator Overloading
+
+Operator overloading allows you to define what +, -, *, or other operators should do when used with your objects.
+
+**Why is Operator Overloading Useful?**
+
+Instead of writing complex methods like `add_warrior_strength(warrior1, warrior2)`, you can simply write `warrior1 + warrior2` and Python will know it means combining their strength—because you've taught it using operator overloading.
+
 ## ☝️ Unary Operators (1 operand)
 
 | Operator       | Description                                      | Example      |
