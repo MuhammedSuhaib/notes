@@ -649,6 +649,19 @@ Used for documentation.
 ```
 
 - Python uses `"""Triple Quotes"""`, while JavaScript/TypeScript uses `/* Block Comments */`.
+---
+- Triple quotes (""") let you write multi-line strings, so instead of using \n to break lines, you can just write the text across lines.
+* ```py
+  print("""
+  Line 1    
+  Line 2
+  Line 3
+  """)
+  ```
+    same as
+- ```py
+  print("Line 1\nLine 2\nLine 3")
+  ```
 
 ---
 
