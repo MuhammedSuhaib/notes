@@ -76,3 +76,6 @@
 > **Eg:** `async/await` in JS for API calls
 
 ---
+<!-- - **Python** → Interpreted, but compiles to bytecode before execution.  
+- **TypeScript** → Compiled (`tsc`), converts to JavaScript.  
+- **JavaScript** → Interpreted, but modern engines use JIT compilation. -->

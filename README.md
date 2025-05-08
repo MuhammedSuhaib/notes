@@ -764,3 +764,6 @@ print( x)
 print( y) 11. i**del**
 del x removes the variable x from memory. After deletion, trying to access the variable x results in a NameError, indicating that the variable no longer exists.
 ---`
+
+<!-- hash("Hamza")// it will give its hash code
+ -->
